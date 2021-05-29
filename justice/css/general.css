@@ -1,0 +1,99 @@
+.navbar-brand {
+    padding: 0;
+  }
+  .navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    line-height: 50px;
+  }
+
+#topBanner{
+    background-image: url("images/law1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    justify-content: center;
+    align-content: center;
+}
+
+#topBanner p{
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contentWhyChooseUs #col-left{
+  background-image: url("images/harrytruman.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  margin-left: auto;
+}
+
+#contentWhyChooseUs #col-right{
+  text-align:justify;
+  height: 810px;
+}
+
+#contentWhyChooseUs #col-right p{
+  font-size:x-large;
+  font-weight: 400;
+  padding: 0px 0px;
+  word-break: break-all;
+}
+
+#contentWhyChooseUs p{
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+}
+
+#contentClientReviews p{
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.testimonial{
+  font-size: small !important;
+  font-weight: 600 !important;
+  color: black;
+  padding: 30px 30px;
+  transition: color 0.5s;
+}
+
+
+#contentClientReviews .col-lg{
+  height: auto;
+  background-color: rgb(255, 254, 254);
+  transition: background-color 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+#contentClientReviews .col-lg:hover{
+  background-color: rgb(66, 66, 66);
+  transition: background-color 0.5s;
+  
+}
+
+#contentClientReviews .col-lg:hover .testimonial{
+  color: white;
+  transition: color 0.5s;
+}
+
+
+.testimonial-image{
+  width: 25px;
+  height: 25px;
+}
+
+.row .testimonial-signature{
+  align-content: flex-end;
+}
